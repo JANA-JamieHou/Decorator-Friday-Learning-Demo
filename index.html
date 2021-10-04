@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <META charset="utf-8" />
+        <META name = "viewport" content = "initial-scale=1, maximum-scale = 1, user-scalable = no"/>
+        <TITLE> What up
+        </TITLE>
+        <!--<LINK rel = "stylesheet" href = "https://js.arcgis.com/4.20/esri/themes/light/main.css">-->
+        <SCRIPT src = "withDecorator.js">
+
+            
+        </SCRIPT>
+        <STYLE>
+
+        </STYLE>
+    </HEAD>
+    <BODY>
+        
+        <div id = "art">&nbsp;</div>
+
+        <!--petition to change how comments work in html
+        Below are input fields. -->
+
+        <FORM id = "menu">
+            <LABEL>TEA $5</LABEL>
+                <p>
+                    <SELECT id = "teaSelect">
+                        <OPTION>Milk Tea</OPTION>
+                        <OPTION>Fruit Tea</OPTION>
+                        <!-- <OPTION>Nothing</OPTION> -->
+                    </SELECT>
+                </p>
+            <LABEL>TOPPINGS +$0.50</LABEL>
+                <p>
+                    <input type = "checkbox" id = "tapiocaSelect">
+                    <LABEL for = "tapiocaSelect">Tapioca</LABEL>
+                    <input type = "checkbox" id = "aloeSelect">
+                    <LABEL for = "aloeSelect">Aloe</LABEL>
+                </p>
+
+            <LABEL>Whip Cream +$0.50</LABEL>
+                <p>
+                    <input type = "checkbox" id = "regularSelect">
+                    <LABEL for = "regularSelect">Regular</LABEL>
+                    <input type = "checkbox" id = "chocolateSelect">
+                    <LABEL for = "chocolateSelect">Chocolate</LABEL>
+                </p>
+        </FORM>
+
+        <button onclick="generateStuff()">Make My Drink!</button>
+        
+    </BODY>
+</HTML>
